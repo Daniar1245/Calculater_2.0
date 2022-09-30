@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.Button" parent="Widget.MaterialComponents.Button">
+        <item name="android:layout_width">80dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
+        <item name="cornerRadius">200dp</item>
+        <item name="android:textSize">30sp</item>
+    </style>
+    <style name="Grey.Button" parent="Base.Button">
+        <item name="backgroundTint">@color/grey</item>
+        <item name="android:textColor">@color/black</item>
+    </style>
+    <style name="Orange.Button" parent="Base.Button">
+        <item name="backgroundTint">@color/orange</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="DarkGrey.Button" parent="Base.Button">
+        <item name="backgroundTint">@color/grey_dark</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <style name="whire.w.Buttontwo" parent="Base.Button">
+        <item name="backgroundTint">@color/white_w</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">15dp</item>
+        <item name="cornerRadius">10dp</item>
+    </style>
+    <style name="SplashTime" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <item name="android:windowBackground">img.png</item>
+        <item name ="backgroundColor">@color/white</item>
+    </style>
+</resources>
